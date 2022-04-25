@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { useContext } from "react";
-import { UserStContext } from "./contexts/UserStContext";
+import { UserStContext } from "../contexts/UserStContext";
 export const EmployeeDetails = () => {
   const {homeinfo,updateInfo}=useContext(UserStContext)
   const id=useParams().id

@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { UserStContext } from "./contexts/UserStContext";
+import { UserStContext } from "../contexts/UserStContext";
 export const Home = () => {
   // create statistics for user.
   // get Total user count from DB,

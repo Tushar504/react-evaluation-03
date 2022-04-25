@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useContext } from "react";
-import { UserStContext } from "./contexts/UserStContext";
+import { UserStContext } from "../contexts/UserStContext";
 export const Admin = () => {
   const {homeinfo,updateInfo}=useContext(UserStContext)
   const [createUser,setUser]=useState({
